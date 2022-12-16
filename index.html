@@ -4,7 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-
 * {
   box-sizing: border-box;
 }
@@ -26,34 +25,39 @@ width: 25%;
 padding: 15px;
 color: red;}
 
-.col-9 {
+.col-6 {
+	font-size: 20px;
+	float: left;
+	width: 25%;
+	padding: 10px;
+	color: red;
+}
 
+.col-9 {
 font-size: 20px;
-float: left;
-width: 75%;
+float: right;
+width: 50%;
 padding: 15px;
 color: red;}
 
-
-
 .header {
+	font-size: xx-large;
 border: 5px;
-padding; 15px;
+padding: 15px;
 text-align: center;
 color: red;
 }
 
 .footer {
-padding: 10px;
-font-size: 20px;
-color: red;}
+	padding: 10px;
+	font-size: 20px;
+	color: red;}
 
 .menu {
-background-color: pink;
-color: white;
+color: pink;
 display: block;
 padding: 10px;
-
+font-size: x-large;
 }
 
 .menu li:hoover {
@@ -72,31 +76,31 @@ body {background-color: skyblue;}
 </head>
 
 <body>
-<div class="header">
-<h1>Famous Quotes</h1>
-</div>
-
-<div class="row">
-	<div class="menu col-3">
-		<ul>
-			<li>More Famous Quotes</li>
-			<li>Anonymous Quotes</li>
-		</ul>
+	<div class="header">
+		<h1>Famous Quotes</h1>
 	</div>
 
-	<div class="col-9">
-		<h2>Short Quotes</h2>
-		<p></p>
-		<p>Good vibes only</p>
-		<p>Feed your soul</p>
-		<p>Love, learn, love</p>
+	<div class="row">
+		<div class="menu col-3">
+			<ul>
+				<li>More Famous Quotes</li>
+				<li>Anonymous Quotes</li>
+			</ul>
+		</div>
 
+		<div class="col-6">
+			<h2>Short Quotes</h2>
+			<p></p>
+			<p>Good vibes only</p>
+			<p>Feed your soul</p>
+			<p>Love, learn, love</p>
+		</div>
+		<div class="col-9">
+			<img src="https://images.unsplash.com/photo-1508610048659-a06b669e3321?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" width="100%" height="100%"> 
+		</div>
+		<div class="footer">
+			<p>Thanks for visiting.</p> <a href="">Click for more quotes.</a>
+		</div>
 	</div>
-
-
-<div class="footer">
-<p>Thanks for visiting.</p> <a href="">Click for more quotes.</a>
-</div>
-</div>
 </body>
 </html>
